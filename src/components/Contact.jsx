@@ -402,14 +402,6 @@ function Contact() {
                     transition={{ delay: 1 }}
                     className="text-center mt-16"
                 >
-                    <motion.p
-                        className="text-gray-500 text-sm flex items-center justify-center gap-2"
-                        whileHover={{ scale: 1.05 }}
-                    >
-                        <Heart size={14} className="text-[#FBBF24]" />
-                        Designed & Built with Framer Motion and TailwindCSS
-                        <Heart size={14} className="text-[#FBBF24]" />
-                    </motion.p>
                     <p className="text-gray-600 text-xs mt-2">
                         © {new Date().getFullYear()} Rashi Sanger. All rights reserved.
                     </p>
